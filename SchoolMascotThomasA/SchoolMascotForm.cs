@@ -27,24 +27,28 @@ namespace SchoolMascotThomasA
 
         private void mniImmaculata_Click(object sender, EventArgs e)
         {
+            // Update School name and mascot name
             lblSchoolName.Text = "Immaculata High School";
             lblSchoolMascot.Text = "Saints";
         }
 
         private void mniAdrian_Click(object sender, EventArgs e)
         {
+            // Update School name and mascot name
             lblSchoolName.Text = "Adrian High School";
             lblSchoolMascot.Text = "Blackhawks";
         }
 
         private void mniBellevueWest_Click(object sender, EventArgs e)
         {
+            // Update School name and mascot name
             lblSchoolName.Text = "Bellevue West";
             lblSchoolMascot.Text = "Thunderbirds";
         }
 
         private void mniCloverPark_Click(object sender, EventArgs e)
         {
+            // Update School name and mascot name
             lblSchoolName.Text = "Clover Park";
             lblSchoolMascot.Text = "Warriors";
         }
