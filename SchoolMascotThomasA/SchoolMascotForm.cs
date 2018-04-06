@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * Created by: Thomas Aubin
+ * Created on: 5 April, 2018
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #7 - School Mascot
+ * This program has a menu bar with menu items that change two labels according the school, their school name and Mascot
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +23,30 @@ namespace SchoolMascotThomasA
         public frmSchoolMascot()
         {
             InitializeComponent();
+        }
+
+        private void mniImmaculata_Click(object sender, EventArgs e)
+        {
+            lblSchoolName.Text = "Immaculata High School";
+            lblSchoolMascot.Text = "Saints";
+        }
+
+        private void mniAdrian_Click(object sender, EventArgs e)
+        {
+            lblSchoolName.Text = "Adrian High School";
+            lblSchoolMascot.Text = "Blackhawks";
+        }
+
+        private void mniBellevueWest_Click(object sender, EventArgs e)
+        {
+            lblSchoolName.Text = "Bellevue West";
+            lblSchoolMascot.Text = "Thunderbirds";
+        }
+
+        private void mniCloverPark_Click(object sender, EventArgs e)
+        {
+            lblSchoolName.Text = "Clover Park";
+            lblSchoolMascot.Text = "Warriors";
         }
     }
 }
